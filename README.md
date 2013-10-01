@@ -24,4 +24,4 @@ Once this operation completes, the final step is to add the service provider. Op
   
 Usage
 =====
-Just call static method `Sluggler::make($your-text)` anywhere in your app.
+Just call static method `Sluggler::make($some_text)` anywhere in your app.
