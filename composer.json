@@ -1,0 +1,25 @@
+{
+    "name": "meshkov/sluggler",
+    "description": "Laravel 4 Cyrillic slugs generator",
+    "authors": [
+        {
+            "name": "Aleksey Meshkov",
+            "email": "tomeshkov@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "require-dev": {
+        "illuminate/support": "4.0.x"
+    },
+    "autoload": {
+        "classmap": [
+            "src/Meshkov/Sluggler"
+        ],
+        "psr-0": {
+            "Meshkov\\Sluggler": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
